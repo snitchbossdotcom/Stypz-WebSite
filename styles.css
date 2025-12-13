@@ -1,0 +1,50 @@
+body {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    color: rgb(75, 202, 202);
+    text-align: center; 
+}
+#AboutStypz {
+    color: rgb(43, 43, 194);
+    font-size: 25px;
+}
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+#joinourdiscord {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 20px;   
+    height: 100px;
+    color: blue;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Bold', sans-serif;
+}
+#Features {
+    color: rgb(75, 202, 202);
+    opacity: 68px;
+    text-align: center;   
+}
+#featurelist {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    color: rgb(2, 162, 255);
+    font: bold;
+    font-size: 25px;
+}
+#Team {
+    color: rgb(75, 202, 202);
+    opacity: 68px;
+    text-align: center;   
+    gap: 50px;
+}
