@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STYPZ VPS – Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #121622;
+      --accent: #7c5cff;
+      --text: #e6e8ee;
+      --muted: #9aa0b4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #1a1f3a, transparent), var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin: 0;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      color: var(--muted);
+      max-width: 720px;
+      margin: 16px auto 0;
+      font-size: 1.05rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #151a2f, var(--card));
+      border: 1px solid rgba(255,255,255,0.05);
+      border-radius: 18px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      letter-spacing: -0.3px;
+    }
+
+    .card p, .card li {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(124,92,255,0.15);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px 60px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Privacy Policy 🔒</h1>
+    <p>Your data matters. This policy explains what STYPZ VPS collects, how it’s used, and how it’s protected.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <span class="badge">Overview</span>
+      <h2>Introduction</h2>
+      <p>This Privacy Policy describes how <strong>STYPZ VPS</strong> collects, uses, and protects personal information when you use our services.</p>
+    </section>
+
+    <section class="card">
+      <span class="badge">Data</span>
+      <h2>Information We Collect</h2>
+      <ul>
+        <li>Account information (username, billing details)</li>
+        <li>Service-related metadata required for operation</li>
+        <li>Communications with support or abuse reports</li>
+      </ul>
+      <p><strong>We do not log or store IP addresses.</strong>
+    </section>
+
+    <section class="card">
+      <span class="badge">Usage</span>
+      <h2>How We Use Data</h2>
+      <ul>
+        <li>Provide, maintain, and secure services</li>
+        <li>Process payments and prevent fraud</li>
+        <li>Enforce policies without tracking individual IP addresses</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <span class="badge">Security</span>
+      <h2>Data Protection</h2>
+      <p>We implement reasonable technical and organizational measures to protect your data. However, no system is 100% secure.</p>
+    </section>
+
+    <section class="card">
+      <span class="badge">Sharing</span>
+      <h2>Third Parties</h2>
+      <p>We do not sell, rent, or trade personal data. Since we do not log IP addresses, we cannot provide IP-based data to third parties. Information may only be shared if legally required and available.</p>
+    </section>
+
+    <section class="card">
+      <span class="badge">Retention</span>
+      <h2>Data Retention</h2>
+      <p>We retain data only as long as necessary to operate services, comply with legal obligations, or resolve disputes.</p>
+    </section>
+
+    <section class="card">
+      <span class="badge">Rights</span>
+      <h2>Your Rights</h2>
+      <p>You may request access, correction, or deletion of your data where legally permitted, via our official support channels.</p>
+    </section>
+
+    <section class="card">
+      <span class="badge">Updates</span>
+      <h2>Policy Changes</h2>
+      <p>This policy may be updated at any time. Continued use of services means acceptance of the revised policy.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span>STYPZ VPS</span>. Privacy by design.</p>
+  </footer>
+
+</body>
+</html>
